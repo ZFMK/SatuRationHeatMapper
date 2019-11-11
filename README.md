@@ -3,34 +3,34 @@
 
 ## Notes regarding software
 
-## NAME        
+### Name        
             SatuRationHeatMapper
 
-### VERSION     
+### Version     
             1.0
 
-### COPYRIGHT   
+### Copyright   
             Copyright © 2019 Bernhard Misof. All rights reserved.
 
-### WARNING     
+### Warning     
             The copyright holder takes no legal responsibility for the correctness of 
             results obtained using this program.
 
-### AUTHOR      
+### Author      
             Bernhard Misof
 
-### ADDRESS     
+### Address     
             Center for Molecular Biodiversity Research
             Zoological Research Museum A. Koenig
             Bonn, Germany
 
-### CONTACT     
+### Contact     
             b.misof@leibniz-zfmk.de
 
-### DATE
+### Date
             2 November 2019
 
-### PURPOSE     
+### Purpose     
             SatuRationHeatMapper produces a heat map from a distance matrix with values of 
             lambda obtained using SatuRation (https://github.com/lsjermiin/SatuRation.v1.0).
             
@@ -41,7 +41,7 @@
             Emphasis is on lambda values between 0.64 and 1.0, allowing the sequence pairs
             that effectively are random with respect to one another to be identified.
             
-### FORMAT      
+### Format      
             Lambda values must be saved in a text file with comma-separated values (.csv).
 
             The first line must contain the number of samples being compared. 
@@ -49,25 +49,25 @@
             Each of the following lines must start with a sample name, and then followed
             by the lambda values, one for each comparison involving the named sample.
  
-### EXAMPLE     
+### Example     
             See file labelled 0_Recombination_lambda.csv.
 
-### INSTALL     
+### Install     
             Copy SatuRationHeatMapper.pl to /usr/local/bin/ for easy use. Use this command:
 
             sudo cp SatuRationHeatMapper.pl /usr/local/bin/. 
 
-### EXECUTE     
+### Execute     
             SatuRationHeatMapper -i <infile.csv> <-t|f>
 
-### HELP        
+### Help        
             -t = triangular heat map; -f = square heat map
 
-### STATUS      
+### Status      
             Software complete
 
-### NOTE        
+### Notes        
             Contact author for updates, etc
 
-### REFERENCE   
+### Reference   
             Jermiin LS, Misof B. Assessing the tree-likeness of phylogenetic data. In prep.
