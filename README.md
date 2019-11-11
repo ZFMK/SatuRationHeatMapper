@@ -1,6 +1,11 @@
 # SatuRationHeatMapper
  SaturationHeatMapper: A perl script designed to generate heat maps from matrices of lambda values generate by Saturation v1.0
 
+## NOTES REGARDING SOFTWARE
+
+NAME        SatuRationHeatMapper
+
+VERSION     1.0
 
 COPYRIGHT   Copyright © 2019 Bernhard Misof. All rights reserved.
 
